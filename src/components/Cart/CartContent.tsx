@@ -37,7 +37,7 @@ const CartContent: React.FC<CartContentProps> = ({
           quantity: newQuantity,
           size: product.size,
           color: product.color,
-          userId: userId ?? undefined,     // ← null → undefined
+          userId: userId ?? undefined,     
         guestId: guestId ?? undefined,
         })
       );
@@ -50,7 +50,7 @@ const CartContent: React.FC<CartContentProps> = ({
         productId: product.productId,
         size: product.size,
         color: product.color,
-        userId: userId ?? undefined,     // ← null → undefined
+        userId: userId ?? undefined,    
         guestId: guestId ?? undefined,
       })
     );

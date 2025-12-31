@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { fetchOrderDetails } from '../redux/slices/orderSlice';
-import type { RootState, AppDispatch } from '../redux/store'; // path එක ඔයාගේ project එකට match කරන්න
+import type { RootState, AppDispatch } from '../redux/store'; 
 
 /* ================= TYPES ================= */
 
@@ -21,24 +21,23 @@ interface OrderItem {
 
 interface Order {
   _id: string;
-  createdAt: string | Date; // backend එකෙන් string (ISO) එනවා common
+  createdAt: string | Date; 
   isPaid: boolean;
   isDelivered: boolean;
   paymentMethod: string;
   shippingMethod: string;
   shippingAddress: ShippingAddress;
   orderItems: OrderItem[];
-  // totalPrice ඕනෙ නම් add කරන්න
+  
 }
 
 /* ================= COMPONENT ================= */
 
 const OrderDetailsPage: React.FC = () => {
-  const { id } = useParams<{ id: string }>(); // id string බව type කළා
+  const { id } = useParams<{ id: string }>(); 
   const dispatch = useDispatch<AppDispatch>();
   
-  // Redux slice එකේ structure එකට match වෙන්න select කරන්න
-  // සාමාන්‍යයෙන් orderSlice එකේ orderDetails, loading, error තියෙනවා
+
   const { orderDetails, loading, error } = useSelector((state: RootState) => state.orders);
 
   useEffect(() => {

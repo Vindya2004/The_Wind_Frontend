@@ -48,15 +48,22 @@ This repository contains all the UI code required to run and view The Wind in th
 
 
 
-### 🖥️ Home / Landing Page
-![Home screenshot](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a313ad89-be9b-4302-a2d2-d8ca0c7d71c2" />
-)
+### 🖥️ Home 
+![Home screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a313ad89-be9b-4302-a2d2-d8ca0c7d71c2" />
+
 
 ### 📄 Dashboard
-![Dashboard screenshot](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93efca94-846f-4a5e-88c2-7525b78580a3" />
-)
+![Dashboard screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93efca94-846f-4a5e-88c2-7525b78580a3" />
 
 
+### 📄 Add to cart
+![cart screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5854d18c-f6c6-4022-854a-6ed1465dc69c" />
+
+
+### 📄 Checkout
+![checkout screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/333e928f-a919-4380-ae32-bdb048eca676" />
+
+>
 ---
 
 ## ⚙️ Setup & Installation
@@ -65,5 +72,5 @@ Follow these steps to run the frontend locally:
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/Vindya2004/The_Wind_Frontend.git
+git clone (https://github.com/Vindya2004/The_Wind_Frontend)
 cd The_Wind_Frontend

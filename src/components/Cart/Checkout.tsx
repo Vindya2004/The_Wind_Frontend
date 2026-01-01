@@ -24,7 +24,7 @@ const Checkout: React.FC = () => {
     (state: RootState) => state.cart
   );
   const { user } = useSelector((state: RootState) => state.auth);
-  const { checkout, loading: checkoutLoading, error: checkoutError } = useSelector(
+  const {  loading: checkoutLoading, error: checkoutError } = useSelector(
     (state: RootState) => state.checkout
   );
 

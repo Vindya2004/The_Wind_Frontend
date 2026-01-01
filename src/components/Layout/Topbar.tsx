@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { IoLogoInstagram } from 'react-icons/io'
 import { RiTwitterXLine } from 'react-icons/ri'
 import { TbBrandMeta } from 'react-icons/tb'

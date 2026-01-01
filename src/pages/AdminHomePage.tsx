@@ -7,9 +7,9 @@ import { fetchAllOrders } from "../redux/slices/adminOrderSlice";
 
 /* ================= TYPES ================= */
 
-interface User {
-  name: string;
-}
+// interface User {
+//   name: string;
+// }
 
 interface AdminOrder {
   _id: string;

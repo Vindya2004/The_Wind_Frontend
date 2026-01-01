@@ -1,4 +1,4 @@
-import React from 'react'
+
 import MenShoes from "../../assets/MenShoes.webp"
 import ladyShoes from "../../assets/ladyShoes.avif"
 import { Link } from 'react-router-dom'

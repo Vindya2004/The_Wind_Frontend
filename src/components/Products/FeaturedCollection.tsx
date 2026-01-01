@@ -1,4 +1,4 @@
-import React from 'react'
+
 import featured from "../../assets/featured.avif"
 import { Link } from 'react-router-dom'
 

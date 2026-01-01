@@ -74,3 +74,7 @@ Follow these steps to run the frontend locally:
 ```bash
 git clone (https://github.com/Vindya2004/The_Wind_Frontend)
 cd The_Wind_Frontend
+
+## 🌐 Frontend Deployment
+
+- **Live Site**: [https://the-wind-frontend.vercel.app](https://the-wind-frontend.vercel.app)

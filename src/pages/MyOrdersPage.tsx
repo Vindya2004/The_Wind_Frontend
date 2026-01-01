@@ -6,24 +6,24 @@ import type { RootState, AppDispatch } from "../redux/store";
 
 /* ================= TYPES ================= */
 
-interface OrderItem {
-  name: string;
-  image: string;
-}
+// interface OrderItem {
+//   name: string;
+//   image: string;
+// }
 
-interface ShippingAddress {
-  city: string;
-  country: string;
-}
+// interface ShippingAddress {
+//   city: string;
+//   country: string;
+// }
 
-interface Order {
-  _id: string;
-  createdAt: string | Date; // backend එකෙන් "createdAt" එනවා (MongoDB standard)
-  shippingAddress?: ShippingAddress;
-  orderItems: OrderItem[];
-  totalPrice: number;
-  isPaid: boolean;
-}
+// interface Order {
+//   _id: string;
+//   createdAt: string | Date; // backend එකෙන් "createdAt" එනවා (MongoDB standard)
+//   shippingAddress?: ShippingAddress;
+//   orderItems: OrderItem[];
+//   totalPrice: number;
+//   isPaid: boolean;
+// }
 
 /* ================= COMPONENT ================= */
 

@@ -10,23 +10,23 @@ import {
 } from "../../redux/slices/productSlice";
 import { addToCart } from "../../redux/slices/cartSlice";
 
-interface ProductImage {
-  url: string;
-  altText?: string;
-}
+// interface ProductImage {
+//   url: string;
+//   altText?: string;
+// }
 
-interface Product {
-  _id: string;
-  name: string;
-  price: number;
-  discountPrice?: number;
-  description?: string;
-  brand?: string;
-  material?: string;
-  sizes?: string[];
-  colors?: string[];
-  images?: ProductImage[];
-}
+// interface Product {
+//   _id: string;
+//   name: string;
+//   price: number;
+//   discountPrice?: number;
+//   description?: string;
+//   brand?: string;
+//   material?: string;
+//   sizes?: string[];
+//   colors?: string[];
+//   images?: ProductImage[];
+// }
 
 interface ProductDetailsProps {
   productId?: string;

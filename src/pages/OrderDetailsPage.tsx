@@ -6,30 +6,30 @@ import type { RootState, AppDispatch } from '../redux/store';
 
 /* ================= TYPES ================= */
 
-interface ShippingAddress {
-  city: string;
-  country: string;
-}
+// interface ShippingAddress {
+//   city: string;
+//   country: string;
+// }
 
-interface OrderItem {
-  productId: string;
-  name: string;
-  price: number;
-  quantity: number;
-  image: string;
-}
+// interface OrderItem {
+//   productId: string;
+//   name: string;
+//   price: number;
+//   quantity: number;
+//   image: string;
+// }
 
-interface Order {
-  _id: string;
-  createdAt: string | Date; 
-  isPaid: boolean;
-  isDelivered: boolean;
-  paymentMethod: string;
-  shippingMethod: string;
-  shippingAddress: ShippingAddress;
-  orderItems: OrderItem[];
+// interface Order {
+//   _id: string;
+//   createdAt: string | Date; 
+//   isPaid: boolean;
+//   isDelivered: boolean;
+//   paymentMethod: string;
+//   shippingMethod: string;
+//   shippingAddress: ShippingAddress;
+//   orderItems: OrderItem[];
   
-}
+// }
 
 /* ================= COMPONENT ================= */
 

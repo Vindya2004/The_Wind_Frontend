@@ -40,21 +40,22 @@ This repository contains all the UI code required to run and view The Wind in th
 ✔ ESLint for code quality  
 ✔ Modular folder structure (`src/`)  
 ✔ Fast build & development with Vite  
-<!-- Add more feature bullets that fit your actual app -->
+
 
 ---
 
 ## 🧰 Screenshots
 
-*(Add screenshots here after running the app)*
+
 
 ### 🖥️ Home / Landing Page
-![Home screenshot](path/to/screenshot1.png)
+![Home screenshot](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a313ad89-be9b-4302-a2d2-d8ca0c7d71c2" />
+)
 
 ### 📄 Dashboard
-![Dashboard screenshot](path/to/screenshot2.png)
+![Dashboard screenshot](<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93efca94-846f-4a5e-88c2-7525b78580a3" />
+)
 
-> ⚠️ Replace the placeholder screenshot links above with actual images from your `public/` or `screenshots/` folder.
 
 ---
 

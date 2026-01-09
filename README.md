@@ -56,6 +56,14 @@ This repository contains all the UI code required to run and view The Wind in th
 ![Dashboard screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/93efca94-846f-4a5e-88c2-7525b78580a3" />
 
 
+### 📄 Product Details
+![productPage screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/88c1d1bd-d562-4021-b8ce-9ebb62fab8d0" />
+
+
+### 📄 User Details
+![user details screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b0f5acfe-55f9-44e1-a8ef-07ff0daddd3f" />
+
+
 ### 📄 Add to cart
 ![cart screenshot]<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5854d18c-f6c6-4022-854a-6ed1465dc69c" />
 
